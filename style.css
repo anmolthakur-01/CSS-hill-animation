@@ -1,0 +1,47 @@
+body{
+    display: flex;
+}
+/* .hills {
+    display: flex;
+} */
+
+#hill-1 {
+    height: 400px;
+    width: 1100px;
+    margin-top: 270px;
+    transform: translateX(150px);
+    background-color: cornflowerblue;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    z-index: 9;
+}
+
+#hill-2 {
+    height: 330px;
+    width: 900px;
+    margin-top: 340px;
+    transform: translateX(-110px);
+    background-color: cornflowerblue;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    z-index: 19;
+}
+
+#hill-3 {
+    height: 370px;
+    width: 1100px;
+    margin-top: 300px;
+    transform: translateX(-400px);
+    background-color: cornflowerblue;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    z-index: 5;
+
+}
+
+#sun {
+    /* position:relative; */
+    height: 100px;
+    width: 100px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    z-index: 99;
+    margin-top: 200px;
+}
