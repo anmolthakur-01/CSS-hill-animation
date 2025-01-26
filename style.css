@@ -37,9 +37,9 @@ body{
     margin-top: 400px;   
     transform: translateX(-750px);
     animation-name: sunAnimation;
-    animation-duration: 15s;    
+    /* animation-duration: 15s;     */
     animation-timing-function: linear;
-    animation-iteration-count: 3;
+    animation-iteration-count: 1;
     animation-fill-mode: both;
 }
 @keyframes sunAnimation {
@@ -51,4 +51,8 @@ body{
         transform: translateY(-400px);
         background-color: rgb(255, 242, 0);
     }
+}
+
+#cloud1{
+    background-image: url(cloud-1.png);
 }
